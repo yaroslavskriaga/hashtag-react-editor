@@ -1,5 +1,5 @@
 # Getting Started with Hashtag React editor 
-
+Rich text editor based on Draft.js library with a twitter-like hashtag functionality. \
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and yarn, using Typescript and MUI Framework.
 
 - Typescript v.5
