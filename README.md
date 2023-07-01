@@ -1,4 +1,4 @@
-# Getting Started with React Template
+# Getting Started with Hashtag React editor 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and yarn, using Typescript and MUI Framework.
 
