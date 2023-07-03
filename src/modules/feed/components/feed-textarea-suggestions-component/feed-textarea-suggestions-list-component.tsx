@@ -10,7 +10,7 @@ interface FeedTextareaSuggestionsComponentInterface {
 
 export const FeedTextareaSuggestionsListComponent = ({ suggestions, onClick }: FeedTextareaSuggestionsComponentInterface) => {
   return (
-    <Paper>
+    <Paper data-testid="feed-suggestions">
       <FixedSizeList
         itemData={{ suggestions: suggestions, handleClick: onClick }}
         height={Math.min(suggestions.length * 46, 150)}

@@ -79,6 +79,7 @@ export const FeedTextareaComponent = React.memo(({ setIsSendingAvailable, setTex
     <>
       <Box padding={1}>
         <Editor
+          webDriverTestID="feed-editor"
           placeholder="Start typing hashtags(#)..."
           spellCheck={false}
           editorState={editorState}
