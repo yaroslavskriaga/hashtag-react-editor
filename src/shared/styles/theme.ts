@@ -18,6 +18,15 @@ export const theme = createTheme({
         },
       },
     },
+    MuiListItemText: {
+      styleOverrides: {
+        root: {
+          span: {
+            fontWeight: "bold" + " " + "!important",
+          },
+        },
+      },
+    },
   },
   palette: {
     mode: "light",
